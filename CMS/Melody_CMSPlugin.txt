@@ -1,0 +1,9 @@
+Jetpack by WordPress - Jetpack offers a suite of powerful features for your WordPress site. Enhanced security, improved site performance, plenty of content tools, and visitor engagement features are all part of this plugin. 
+--JetPack is a suite of many different plugins and tools packed together.
+Jetpack
+https://wordpress.org/plugins/jetpack/
+
+Yoast SEO - Yoast is a powerful tool that can help you make your site as search engine-friendly as possible.
+--For users searching contents of the site (Books)
+SEO
+https://wordpress.org/plugins/wordpress-seo/
