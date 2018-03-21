@@ -1,0 +1,15 @@
+Features
+
+1.Schedule Posts
+  - you can set a specific time and date if you want to announce something in the website in the future. 
+
+2.Quick-Embed Media
+  - you can add videos/images/documents/audio/social media posts directly from the source. They can link their posts from their page on facebook to their website.
+
+Plugins
+
+1.Monarch Social Media Sharing
+  - Monarch is hands down the best social sharing plugin for WordPress. Monarch was built to get you more shares and more followers using highly effective social sharing methods.
+
+2.Constant Contact
+  - It allows you to build an email lists and send emails to the students.
