@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="getDate"></p>
+
+<button onclick="getTimeIn()">Time In</button>
+
+<p id="timeIn"></p>
+
+<button onclick="getTimeOut()">Time Out</button>
+
+<p id="timeOut"></p>
+
+<button onclick="getTimeParked()">Charge</button>
+
+<p id="timeParked"></p>
+
+<script type="text/javascript">
+var timeInDate, timeOutDate;
+function getTimeParked(){
+	
+	//timeInDate = new Date("March 31, 2018 11:25:10");
+	//timeOutDate = new Date("March 31, 2018 12:23:18");	
+
+	var diff = timeOutDate - timeInDate;
+	var seconds = 1000;
+	var minutes = seconds*60;
+	var hours = minutes*60;
+
+	console.log(timeInDate);
+	console.log(timeOutDate);	
+
+	var charge = formatNum((Math.round(diff/hours))%60) +":" + formatNum((Math.round(diff/minutes))%60) +":" + formatNum((Math.round(diff/seconds))%60);
+    	document.getElementById("timeParked").innerHTML = charge;
+}
+
+function getTimeIn() {
+    timeInDate = new Date();
+    var t = formatNum(timeInDate.getHours()) +":" + formatNum(timeInDate.getMinutes()) +":" + formatNum(timeInDate.getSeconds());
+    document.getElementById("timeIn").innerHTML = t;
+}
+
+function getTimeOut() {
+    timeOutDate = new Date();
+    var t = formatNum(timeOutDate.getHours()) +":" + formatNum(timeOutDate.getMinutes()) +":" + formatNum(timeOutDate.getSeconds());
+    document.getElementById("timeOut").innerHTML = t;
+}
+
+function formatNum(num){
+	if((num+"").length == 1){
+		return "0"+num;
+	}else{
+		return num;
+	}
+}
+
+
+
+
+</script>
+
+</body>
+</html>
