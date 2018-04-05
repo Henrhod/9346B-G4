@@ -114,5 +114,12 @@ hr{
     margin-left: 1%;
     height: auto;
 }
+.summary-table{
+    width: 100%;
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+}
+
 
 .Calendar-Title{}
