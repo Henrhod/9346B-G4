@@ -370,3 +370,197 @@
     }
 }
 
+
+@media only screen and (min-width: 200px){
+    
+}
+
+@media only screen and (max-width: 400px){
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .Title-Bar{
+        background-color: aliceblue;
+        padding: 2%;
+        border-bottom: 2px solid;
+        border-top: 1px solid;
+    }
+
+    #Logo{
+        width: 15%;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+    #Title{
+        font-size: 5vh;
+        padding-left: 3%;
+        font-family: "Occupied";
+    }
+
+    .Buttons{
+        background-color:aqua;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    .Current-Container{
+        width: 33%;
+    }    
+    
+    .Button-Logo{
+        width: 50%;
+        height: auto;
+    }
+        
+    .Button-Text{
+        font-size: 2vh;
+        margin-top: 1%;
+        font-family: "Targa";
+    }
+        
+    .Recent-Container{
+        width: 33%;
+    }
+    
+    .Summary-Container{
+        width: 36%;
+    }
+    
+    .Plate{
+        
+    }
+    
+    #Enter-Plate-Number{
+        padding: 20px;
+        font-size: 2.5vh;
+        border: 1px solid grey;
+        width: 50%;
+        height: 10%;
+        background: #f1f1f1;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-left: 23%;
+    }
+    
+    #Search-Plate-Number{
+        padding: 20px;
+        font-size: 2.5vh;
+        border: 1px solid grey;
+        width: 50%;
+        height: 10%;
+        background: #f1f1f1;
+        margin-bottom: 5%;
+        margin-top: 8%;
+        margin-left: 23%;
+        
+    }
+    
+    .Start-Time-Button{
+        margin-top: -27%;
+        margin-left: 36%;
+        margin-top: -34%;
+    }   
+    
+    #Start-Time{   
+        margin-left: 33%;
+        
+        display: inline-block;
+    }
+    
+    .All-Button{
+        background-color: #87CEFA; 
+        border: none;
+        color: white;
+        padding: 7px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.5vh;
+        margin: 4px 2px;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+    
+    .All-Button:hover{
+        font-size: 2.5vh;
+        color: cornflowerblue;
+        
+    }
+    
+    .Button-Enter-Plate{
+        margin-right: 7%;
+        font-size: 1.5em;
+    }
+    
+    #Cancel{
+        float: right;
+        margin-right: 10%;
+        margin-top: 21%;
+        
+    }
+
+     #Search{
+        float: right;
+        margin-right: 2%;
+        margin-top: 21%;
+        
+    }
+    
+    hr{
+        margin-top: 30%;
+    }
+    
+    .Parking-Table{
+        border: 2px solid black;
+        border-collapse: collapse;
+        border-radius: 5px;
+        width: 98%;
+        align-content: center;
+        margin-left: 1%;
+        height: auto;
+        font-family: Occupied;
+        font-size: 1.5vh;
+    }
+    
+    /*Start of the Recent Button code*/
+    
+    .Recent-Body{
+        
+    }
+    
+    .Recent-Plate{
+        
+    }
+    
+    #Search-Plate-Number{
+        
+    }
+    
+    #asd{
+        
+        float: right;
+        margin-right: 3%;
+        margin-top: -5%;
+        display: inline-block;
+    
+    }
+    
+    .Recent-Table{
+        border: 2px solid black;
+        border-collapse: collapse;
+        border-radius: 5px;
+        width: 98%;
+        align-content: center;
+        margin-left: 1%;
+        height: auto;
+        font-family: Occupied;
+        font-size: 3vh;
+    }
+}
+
+}
