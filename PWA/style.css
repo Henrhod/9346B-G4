@@ -3,150 +3,370 @@
     src: url("Fonts/Occupied.otf") format ("opentype")
 }
 
-*{
-    margin: 0;
-    padding: 0;
+@font-face{
+    font-family: Targa;
+    src: url("Fonts/Targa.ttf");
+}
+
+@media only screen and (min-width: 1200px){
+    *{
+        margin-left: 0;
+        padding: 0%;
+        
+    }
+
+    body{
+        padding-left: 20%;
+        padding-right: 20%;
+        border-left: 2px solid;
+    }
+
+    .Title-Bar{
+        background-color: aliceblue;
+        padding: 2%;
+        border-bottom: 2px solid;
+        border-top: 1px solid;
+    }
+
+    #Logo{
+        width: 12%;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+    #Title{
+        font-size: 13vh;
+        padding-left: 3%;
+        font-family: "Occupied";
+    }
+
+    .Buttons{
+        background-color:aqua;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    .Current-Container{
+        width: 33%;
+    }    
     
-}
-.Title-Bar{
-    background-color: aliceblue;
-    padding: 2%;
-    border-bottom: 2px solid;
-    border-top: 1px solid;
-}
-
-#Logo{
-    width: 15%;
-    height: auto;
-    vertical-align: bottom;
-}
-
-#Title{
-    font-size: 5.5ex;
-    font-family: "Occupied";
-}
-
-#Search-Plate-Number{
-    padding: 10px;
-    font-size: 1.5vh;
-    border: 1px solid grey;
-    width: 80%;
-    height: 5%;
-    background: #f1f1f1;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    margin-left: 8%;
-    margin-left: 8%;
-}
-
-
-#Enter-Plate-Number{
-    padding: 10px;
-    font-size: 1.5vh;
-    border: 1px solid grey;
-    width: 80%;
-    height: 5%;
-    background: #f1f1f1;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    margin-left: 8%;
+    .Button-Logo{
+        width: 36%;
+        height: auto;
+        padding-left: 25%;
+        padding-right: 20%;
+    }
+        
+    .Button-Text{
+        font-size: 3vh;
+        margin-top: 1%;
+        font-family: "Targa";
+    }
+        
+    .Recent-Container{
+        width: 33%;
+    }
     
-}
-
-.Start-Time-Button{
-    margin-top: -1.5%;
+    .Summary-Container{
+        width: 36%;
+    }
     
-}
-
-#Start-Time{
-    float: right;
-    margin-right: 6.5%;
+    .Plate{
+        
+    }
     
+    #Enter-Plate-Number{
+        padding: 20px;
+        font-size: 2.5vh;
+        border: 1px solid grey;
+        width: 29%;
+        height: 10%;
+        background: #f1f1f1;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-left: 10%;
+        display: inline-block;
+        float: left;
+    }
+    
+    #Search-Plate-Number{
+        padding: 20px;
+        font-size: 2.5vh;
+        border: 1px solid grey;
+        width: 29%;
+        height: 10%;
+        background: #f1f1f1;
+        margin-bottom: 5%;
+        margin-left: 8%; 
+        margin-top: 5%;
+        margin-right: 10%;
+        display: inline-block;
+        float: right;
+    }
+    
+    .Start-Time-Button{
+        margin-top: -1.5%;
+    }   
+    
+    #Start-Time{   
+        margin-left: 33%;
+        margin-top: -8%;
+        display: inline-block;
+    }
+    
+    .All-Button{
+        background-color: #87CEFA; 
+        border: none;
+        color: white;
+        padding: 7px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.5vh;
+        margin: 4px 2px;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+    
+    .All-Button:hover{
+        font-size: 2.5vh;
+        color: cornflowerblue;
+        
+    }
+    
+    .Button-Enter-Plate{
+        margin-right: 7%;
+        font-size: 1.5em;
+    }
+    
+    #Cancel{
+        float: right;
+        margin-right: 3%;
+        margin-top: -5%;
+        display: inline-block;
+    }
+
+     #Search{
+        float: right;
+        margin-right: 13%;
+        margin-top: -5%;
+        display: inline-block;   
+    }
+    
+    hr{
+        margin-top: 5%;
+    }
+    
+    .Parking-Table{
+        border: 2px solid black;
+        border-collapse: collapse;
+        border-radius: 5px;
+        width: 98%;
+        align-content: center;
+        margin-left: 1%;
+        height: auto;
+        font-family: Occupied;
+        font-size: 3vh;
+    }
+    
+    /*Start of the Recent Button code*/
+    
+    .Recent-Body{
+        
+    }
+    
+    .Recent-Plate{
+        
+    }
+    
+    #Search-Plate-Number{
+        
+    }
+    
+    #asd{
+        
+        float: right;
+        margin-right: 3%;
+        margin-top: -5%;
+        display: inline-block;
+    
+    }
+    
+    .Recent-Table{
+        border: 2px solid black;
+        border-collapse: collapse;
+        border-radius: 5px;
+        width: 98%;
+        align-content: center;
+        margin-left: 1%;
+        height: auto;
+        font-family: Occupied;
+        font-size: 3vh;
+    }
 }
 
 
-.Button-Enter-Plate{
-    float: right;
-    margin-right: 7%;
-    font-size: 1.5em;
+@media only screen and (min-width: 1200px){
+    *{
+        margin-left: 0;
+        padding: 0%;
+        
+    }
+
+    body{
+        padding-left: 20%;
+        padding-right: 20%;
+        border-left: 2px solid;
+    }
+
+    .Title-Bar{
+        background-color: aliceblue;
+        padding: 2%;
+        border-bottom: 2px solid;
+        border-top: 1px solid;
+    }
+
+    #Logo{
+        width: 12%;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+    #Title{
+        font-size: 13vh;
+        padding-left: 3%;
+        font-family: "Occupied";
+    }
+
+    .Buttons{
+        background-color:aqua;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    .Current-Container{
+        width: 33%;
+    }    
+    
+    .Button-Logo{
+        width: 36%;
+        height: auto;
+        padding-left: 25%;
+        padding-right: 20%;
+    }
+        
+    .Button-Text{
+        font-size: 3vh;
+        margin-top: 1%;
+        font-family: "Targa";
+    }
+        
+    .Recent-Container{
+        width: 33%;
+    }
+    
+    .Summary-Container{
+        width: 36%;
+    }
+    
+    .Plate{
+        
+    }
+    
+    #Enter-Plate-Number{
+        padding: 20px;
+        font-size: 2.5vh;
+        border: 1px solid grey;
+        width: 29%;
+        height: 10%;
+        background: #f1f1f1;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-left: 10%;
+        display: inline-block;
+        float: left;
+    }
+    
+    #Search-Plate-Number{
+        padding: 20px;
+        font-size: 2.5vh;
+        border: 1px solid grey;
+        width: 29%;
+        height: 10%;
+        background: #f1f1f1;
+        margin-bottom: 5%;
+        margin-left: 8%; 
+        margin-top: 5%;
+        margin-right: 10%;
+        display: inline-block;
+        float: right;
+    }
+    
+    .Start-Time-Button{
+        margin-top: -1.5%;
+    }   
+    
+    #Start-Time{   
+        margin-left: 33%;
+        margin-top: -8%;
+        display: inline-block;
+    }
+    
+    .All-Button{
+        background-color: #87CEFA; 
+        border: none;
+        color: white;
+        padding: 7px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.5vh;
+        margin: 4px 2px;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+    
+    .All-Button:hover{
+        font-size: 2.5vh;
+        color: cornflowerblue;
+        
+    }
+    
+    .Button-Enter-Plate{
+        margin-right: 7%;
+        font-size: 1.5em;
+    }
+    
+    #Cancel{
+        float: right;
+        margin-right: 3%;
+        margin-top: -5%;
+        display: inline-block;
+    }
+
+     #Search{
+        float: right;
+        margin-right: 13%;
+        margin-top: -5%;
+        display: inline-block;   
+    }
+    
+    hr{
+        margin-top: 5%;
+    }
+    
+    .Parking-Table{
+        border: 2px solid black;
+        border-collapse: collapse;
+        border-radius: 5px;
+        width: 98%;
+        align-content: center;
+        margin-left: 1%;
+        height: auto;
+        font-family: Occupied;
+        font-size: 3vh;
+    }
 }
 
-#button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #2196F3;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-}
-
-form.example button:hover {
-    background: #0b7dda;
-}
-
-
-.Buttons{
-    width: 100%;
-    height: 25%;
-    background-color:aqua;
-    display: flex;
-    align-items: stretch;
-   
-}
-
-.Button-Logo{
-    width: 30%;
-    height: auto;
-   
-}
-
-hr{
-    margin-top: 10%;
-}
-
-.Parking-Table{
-    border: 2px solid black;
-    border-collapse: collapse;
-    width: 98%;
-    align-content: center;
-    margin-left: 1%;
-    height: auto;
-}
-.summary-table{
-    width: 100%;
-    border: 1px solid black;
-    text-align: left;
-    padding: 5px;
-}
-
-
-.Calendar-Title{}
-.monthPre{
- color: gray;
- text-align: center;
-}
-.monthNow{
- color: blue;
- text-align: center;
-}
-.dayNow{
- border: 2px solid black;
- color: #FF0000;
- text-align: center;
-}
-.calendar td{
- htmlContent: 2px;
- width: 40px;
-}
-.monthNow th{
- background-color: #000000;
- color: #FFFFFF;
- text-align: center;
-}
-.dayNames{
- background: #0FF000;
- color: #FFFFFF;
- text-align: center;
-}
