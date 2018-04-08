@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Recent parks</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="styleRecent.css" type="text/css">
     
     
 </head>
@@ -41,11 +41,11 @@
 	</footer>
 	<div class="recentParks">
 		<p id="getDateToday">
-			<form id="searchPlate">
-				<input type="text" placeholder="Plate Number" name="serchPlate" id="searchPlateSpecific">
-			</form>
+		<form class="Recent-Plate">
+            <input type="text" placeholder="Search Plate Number" name="search" id="Search-Plate-Number" >
+            <input type="button" value="Search" id="Search-Button">
+        </form>
 		</p>
-		<div class="recentData">
 			<table id="recentTable">
 				<tr>
 					<th>Plate Number</th>
@@ -60,8 +60,6 @@
 					<td>65</td>
 				</tr>
 			</table>
-						
-		</div>	
 	</div>
 
 		<script type="text/javascript">
