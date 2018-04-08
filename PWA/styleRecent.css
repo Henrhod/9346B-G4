@@ -1,0 +1,145 @@
+@font-face{
+    font-family: Occupied;
+    src: url("Fonts/Occupied.otf") format ("opentype")
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.Title-Bar{
+    background-color: aliceblue;
+    padding: 2%;
+    border-bottom: 2px solid;
+    border-top: 1px solid;
+}
+
+#Logo{
+    width: 15%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+#Title{
+    font-size: 5.5ex;
+    font-family: "Occupied";
+}
+
+#Search-Plate-Number{
+    padding: 10px;
+    font-size: 1.5vh;
+    border: 1px solid grey;
+    width: 80%;
+    height: 5%;
+    background: #f1f1f1;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-left: 8%;
+}
+
+
+#Enter-Plate-Number{
+    padding: 10px;
+    font-size: 1.5vh;
+    border: 1px solid grey;
+    width: 80%;
+    height: 5%;
+    background: #f1f1f1;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 8%;
+    
+}
+
+.Start-Time-Button{
+    margin-top: -1.5%;
+    
+}
+
+#Start-Time{
+    float: right;
+    margin-right: 6.5%;
+    
+}
+
+
+.Button-Enter-Plate{
+    float: right;
+    margin-right: 7%;
+    font-size: 1.5em;
+}
+
+#button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+
+.Buttons{
+    width: 100%;
+    height: 25%;
+    background-color:aqua;
+    display: flex;
+    align-items: stretch;
+   
+}
+
+.Button-Logo{
+    width: 30%;
+    height: auto;
+   
+}
+
+hr{
+    margin-top: 10%;
+}
+
+.Parking-Table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 98%;
+    align-content: center;
+    margin-left: 1%;
+    height: auto;
+}
+.summary-table{
+    width: 100%;
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+}
+
+table{
+    width:100%;
+}
+
+tr,th{
+    width:25%;
+    text-align: center;
+}
+
+#Search-Plate-Number {
+    float: right;
+    margin-top:-3%;
+    width:30%;
+}
+
+ input[type=button]{
+    float: right;
+    margin-right: -40%;
+    margin-top: 6%;
+    display: inline-block;
+}
