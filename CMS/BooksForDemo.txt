@@ -7,7 +7,7 @@ The papers cover topics such as information technology in communication, managem
 
 Bibliographic Information
 Book Title: Information Technology Science
-Editors: Tatiana Antipova & Álvaro Rocha
+Authors: Tatiana Antipova & Álvaro Rocha
 Series Title: Advances in Intelligent Systems and Computing
 Series Volume: 724
 Copyright: 2018
