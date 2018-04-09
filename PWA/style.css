@@ -352,7 +352,7 @@
     }
 }
 
-@media only screen and (min-width: 433px){
+@media only screen and (min-width: 220px){
     *{
         margin: 0;
         padding: 0;
@@ -517,9 +517,16 @@
         font-family: Occupied;
         font-size: 3vh;
     }
-	#getDateToday{
-		font-size:3vh;
-		font-family:Occupied;
-		margin-left:2%;
-	}
+    
+    .Calendar-Title{
+        font-family: "Occupied";
+        font-size: 5vh;
+        margin-left: 45%;
+        
+    }
+    
+    .summary-table{
+        font-size: 2.5vh;
+        font-family: "Occupied";
+    }
 }

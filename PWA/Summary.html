@@ -1,40 +1,48 @@
 <!doctype html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <title>Summary</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css" type="text/css">
-    </head>
-
-    <body onload="displayCalendar()">
-        
-
-        <div class="Title-Bar">
-            <img src="Pictures/Parking.png" id="Logo">
-            <span id="Title">Jadewell Parking</span>
-        </div>
+<head>
+    <meta charset="utf-8">
+    <title>Another</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
     
-        <div class="Buttons">
-            <button class="Current-Container">
-                <a href="index.html"><img src="Pictures/Current.png" class="Button-Logo"></a>
+    
+</head>
+    
+<body>
+    <div class="Title-Bar">
+        <img src="Pictures/Parking.png" id="Logo">
+        <span id="Title">Summary</span>
+    </div>
+    
+    <div class="Buttons">
+        <button class="Current-Container">
+            <a href="index.html">
+                <img src="Pictures/Current.png" class="Button-Logo">
+            </a>
                 <p class="Button-Text">Current</p>
-            </button>
             
-            <button class="Recent-Container">
-                <a href="recent.html"><img src="Pictures/Recent.png" class="Button-Logo"></a>
+        </button>
+            
+        <button class="Recent-Container">
+            <a href="Recent.html">
+                <img src="Pictures/Recent.png" class="Button-Logo">
+            </a>
                 <p class="Button-Text">Recent</p>
-            </button>
-
-            <button class="Summary-Container">
-                <a href="summary.html"><img src="Pictures/Summary.png" class="Button-Logo"></a>
-                <p class="Button-Text">Summary</p>
-            </button>
-        </div>
-
+            
+        </button>            
+            
+        <button class="Summary-Container">
+            <a href="Summary.html">
+            <img src="Pictures/Summary.png" class="Button-Logo">
+            </a>
+            <p class="Button-Text" id="Summary-Text">Summary</p>
+        </button>
+    </div>
+        
         <hr>
-
-        <table class="summary-table">
+        <span class="Calendar-Title">Calendar</span>
+     <table class="summary-table">
             <tr>
                 <th id="getDateToday"></th>
             </tr>
@@ -49,7 +57,6 @@
 
         </table>
         
-        <!--<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=slu.edu.ph_9bu191ndgvbsiqa6ec89h9c9tg%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=Asia%2FManila" class="Calendar"></iframe>-->
         <hr>
         <div id="calendar"></div> 
         <script type="text/javascript">
@@ -69,7 +76,6 @@
                         var date = new Date();
                         var dateToday = month[date.getMonth()] +" "+ date.getDate() +", "+ date.getFullYear();
                         document.getElementById("getDateToday").innerHTML = dateToday;
-
                         function displayCalendar(){
                             var htmlContent ="";
                             var FebNumberOfDays ="";
@@ -80,7 +86,6 @@
                             var prevMonth = month -1;
                             var day = dateNow.getDate();
                             var year = dateNow.getFullYear();
-
                             //Determing if February (28,or 29)
                             if (month == 1){
                                 if ( (year%100!=0) && (year%4==0) || (year%400==0)){
@@ -93,20 +98,17 @@
                             var monthNames = ["January","February","March","April","May","June","July","August","September","October","November", "December"];
                             var dayNames = ["Sunday","Monday","Tuesday","Wednesday","Thrusday","Friday", "Saturday"];
                             var dayPerMonth = ["31", ""+FebNumberOfDays+"","31","30","31","30","31","31","30","31","30","31"]
-
                             // days in previous month and next one , and day of week.
                             var nextDate = new Date(nextMonth +' 1 ,'+year);
                             var weekdays= nextDate.getDay();
                             var weekdays2 = weekdays
                             var numOfDays = dayPerMonth[month];
                             // this leave a white space for days of pervious month.
-
                             while (weekdays>0){
                                 htmlContent += "<td class='monthPre'></td>";
                                 // used in next loop.
                                 weekdays--;
                             }
-
                             // loop to build the calander body.
                             while (counter <= numOfDays){
                             // When to start new line.
@@ -134,5 +136,4 @@
                         document.getElementById("calendar").innerHTML=calendarBody;
                     }
         </script>
-    </body>
-</html>
+</body>
