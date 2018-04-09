@@ -517,4 +517,9 @@
         font-family: Occupied;
         font-size: 3vh;
     }
+	#getDateToday{
+		font-size:3vh;
+		font-family:Occupied;
+		margin-left:2%;
+	}
 }
