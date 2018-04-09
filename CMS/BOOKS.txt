@@ -128,3 +128,72 @@ Number of Pages: X, 229
 
 No. of copies available: 7
 Location of the book: Math Section
+
+7. Ethics in paediatric nursing
+The idea to write a book on ethical issues pertaining to paediatric nursing has been aired for quite some time. The single most signifi­ cant factor in holding up the creation of such a book was the lack of expertise in one person of all the areas of paediatric nursing. The problem was resolved by producing an edited book, covering various specialities of paediatric nursing. Undoubtedly, one could have included more detailed coverage of particular speciality areas, e.g. chapters on ethical issues surrounding adolescent care, child abuse, teenage mothers, behaviour modification programmes and so on. The approach we took, however, stressed the overall unity of paediatric nursing - where the specialities are wide enough to take in all paediatric nursing activities from neonatal care to adolescent health screening. I am certainly very aware that the book would not have been written and produced without the support, enthusiasm and co­ operation of the chapter-writers. I would also especially like to thank Christine Birdsall, Nursing Editor at Chapman and Hall, and my colleagues at the Charles West School of Nursing - Joanna Parkes and Imelda Charles-Edwards, for their continuing support, and my family and friends, all of whom bore with me during the last two years.
+
+Bibliographic Information
+Book Title: Ethics in paediatric nursing
+Authors: Gosia Brykczynska
+Copyright: 1989
+Publisher: Springer US
+Copyright Holder: Springer Science+Business Media Dordrecht
+Edition Number: 1
+Number of Pages: XIV, 157
+
+No. of available books: 5
+Location of the book: Medicine Section
+
+8. Psychotherapeutic Diagnostics
+into account in particular respect of an intercultural and increasingly g- balized world. For what is experienced as painful, deviant, or troublesome is not only subject to individual perception but also to collective states of - consciousness. The diagnostic process may be understood as a form of translation in so far as a patient’s utterances, be they verbal or nonverbal, are transferred to a new code of understanding, a process every communicator is involved in because, as we all know, there is no such thing as non-communication. If in an empathic relational ? eld we manage to decode a patient’s subjective l- guage including that of her symptoms and distress, a new language will crop up which will ? nally explain the text the patient originally came up with. D- ferent visions entail different actions. At best, translating widens the scope of options of the affected individual and, precedingly, her scope of decisi- making. Just as translating from other languages is judged successful only if the hermeneutic depth dimension of a notion has been embraced and c- veyed, the psychotherapeutic process calls for the same prudence: only if we have grasped most of the meaning and the content may we adequately int- pret psychological occurrences and bestow meaning to them.
+
+Bibliographic Information
+Book Title: Psychotherapeutic Diagnostics
+Book Subtitle: Guidelines for the new standard
+Editors: Heinrich Bartuska, Manfred Buchsbaumer, Gerda Mehta, Gerhard Pawlowsky,Stefan Wiesnagrotzki
+Copyright: 2008
+Publisher: Springer-Verlag Wien
+Copyright Holder: Springer-Verlag Vienna
+Edition Number: 1
+Number of Pages: XX, 291
+
+No. of available books: 2
+Location of the book: Medicine Section
+
+9. Architecture Principles
+Enterprises, from small to large, evolve continuously. As a result, their structures are transformed and extended continuously. Without some means of control, such changes are bound to lead to an overly complex, uncoordinated and heterogeneous environment that is hard to manage and hard to adapt to future changes. Enterprise architecture principles provide a means to direct transformations of enterprises. As a consequence, architecture principles should be seen as the cornerstones of any architecture.
+
+In this book, Greefhorst and Proper focus on the role of architecture principles. They provide both a theoretical and a practical perspective on architecture principles. The theoretical perspective involves a brief survey of the general concept of principle as well as an analysis of different flavors of principles. Architecture principles are regarded as a specific class of normative principles that direct the design of an enterprise, from the definition of its business to its supporting IT. The practical perspective on architecture principles is concerned with an approach to the formulation of architecture principles, as well as their actual use in organizations. To illustrate their use in practice, several real-life cases are discussed, an application of architecture principles in TOGAF is included, and a catalogue of example architecture principles is provided.
+
+With this broad coverage, the authors target students and researchers specializing in enterprise architecture or business information systems, as well as practitioners who want to understand the foundations underlying their practical daily work.
+
+Bibliographic Information
+Book Title: Architecture Principles
+Book Subtitle: The Cornerstones of Enterprise Architecture
+Authors: Danny Greefhors & Erik Proper
+Series Title: The Enterprise Engineering Series
+Copyright: 2011
+Publisher: Springer-Verlag Berlin Heidelberg
+Copyright Holder: Springer-Verlag Berlin Heidelberg
+Edition Number: 1
+Number of Pages: XV, 197
+
+No. of available books: 2
+Location of the book: Engineering Section
+
+10. Mixed Reality In Architecture, Design, And Construction
+Mixed Reality is moving out of the research-labs into our daily lives. It plays an increasing role in architecture, design and construction. The combination of digital content with reality creates an exciting synergy that sets out to enhance engagement within architectural design and construction.
+
+State-of-the-art research projects on theories and applications within Mixed Reality are presented by leading researchers covering topics in architecture, design collaboration, construction and education. They discuss current projects and offer insight into the next wave of Mixed Reality possibilities.
+
+Bibliographic Information
+Book Title: Mixed Reality In Architecture, Design, And Construction
+Editors: Xiangyu Wang & Marc Aurel Schnabel
+Copyright: 2009
+Publisher: Springer Netherlands
+Copyright Holder: Springer Science+Business Media B.V.
+Edition Number: 1
+Number of Pages: XIV, 274
+
+No. of available books: 1
+Location of the book: Engineering Section
