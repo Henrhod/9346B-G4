@@ -1,0 +1,130 @@
+1. Information Systems Analysis and Modeling
+   Informational Macrodynamics (IMD) presents the unified information systemic approach with common information language for modeling, analysis and optimization of a variety of interactive processes, such as physical, biological, economical, social, and informational, including human activities. 
+Comparing it with thermodynamics, which deals with transformation energy and represents a theoretical foundation of physical technology, IMD deals with transformation information, and can be considered a theoretical foundation of Information Computer Technology (ICT). ICT includes but is not limited to applied computer science, computer information systems, computer and data communications, software engineering, and artificial intelligence. In ICT, information flows from different data sources, and interacts to create new information products. The information flows may interact physically or via their virtual connections, initiating an information dynamic process that can be distributed in space. 
+As in physics, a problem is understanding general regularities of the information processes in terms of information law, for the engineering and technological design, control, optimization, and development of computer technology, operations, manipulations, and management of real information objects. 
+Information Systems Analysis and Modeling: An Informational Macrodynamics Approach belongs to an interdisciplinary science that represents the new theoretical and computer-based methodology for system informational description and improvement, including various activities in such interdisciplinary areas as thinking, intelligent processes, management, and other nonphysical subjects with their mutual interactions, informational superimpositions, and the information transferred between interactions. 
+Information Systems Analysis and Modeling: An Informational Macrodynamics Approach can be used as a textbook or secondary text in courses on computer science, engineering, business, management, education, and psychology and as a reference for research and industry.
+
+
+Bibliographic Information
+
+Book Title: Information Systems Analysis and Modeling
+Book Subtitle: An Informational Macrodynamics Approach
+Authors: Vladimir S. Lerner
+Series Title: The Springer International Series in Engineering and Computer Science
+Series Volume: 532
+Copyright: 2000
+Publisher: Springer US
+Copyright Holder: Springer Science+Business Media New York
+Number of Pages: XXVI, 305
+
+No. of copies available: 3
+Location of the book: Information Technology Section
+
+
+
+2.Genetic Algorithms in Java Basics
+
+Genetic Algorithms in Java Basics is a brief introduction to solving problems using genetic algorithms, with working projects and solutions written in the Java programming language. This brief book will guide you step-by-step through various implementations of genetic algorithms and some of their common applications, with the aim to give you a practical understanding allowing you to solve your own unique, individual problems. After reading this book you will be comfortable with the language specific issues and concepts involved with genetic algorithms and you'll have everything you need to start building your own.
+
+Genetic algorithms are frequently used to solve highly complex real world problems and with this book you too can harness their problem solving capabilities. Understanding how to utilize and implement genetic algorithms is an essential tool in any respected software developers toolkit. So step into this intriguing topic and learn how you too can improve your software with genetic algorithms, and see real Java code at work which you can develop further for your own projects and research.
+
+Guides you through the theory behind genetic algorithms
+Explains how genetic algorithms can be used for software developers trying to solve a range of problems
+Provides a step-by-step guide to implementing genetic algorithms in Java
+
+Bibliographic Information
+Book Title: Genetic Algorithms in Java Basics
+Authors: Lee Jacobson & Burak Kanber
+Copyright: 2015
+Publisher: Apress
+Copyright Holder: Lee Jacobson and Burak Kanber
+Number of Pages: XV, 154
+Number of Illustrations and Tables: 33 b/w illustrations
+
+No. of copies available: 5
+Location of the book: Information Technology Section
+
+
+3.An Introduction to HTML and JavaScript
+The JavaScript language is widely used for simple online applications. This useful book presents HTML and JavaScript in a way that uniquely meets the needs of students in the sciences and engineering. It explains how to create simple, client-side applications for scientific and engineering calculations. It includes many complete HTML/JavaScript examples with science/engineering applications to guide the reader progressively and comprehensively through the subject.
+
+This book is specifically targeted at a technical audience-- but not one that is necessarily familiar with a programming language-- and gives the reader a sufficient understanding of HTML and JavaScript to write their own online applications. The exposition emphasises basic programming principles in a modern Web-oriented environment, making it also highly suitable for an introductory programming course for non-computer-science majors.
+
+Features and topics:
+
+• Includes detailed code examples and output to guide the reader
+
+• Is extremely accessible, and ideal for self-study
+
+• Offers a working knowledge of HTML and JavaScript, which are essential for Web development and useful as a marketable skill
+
+• Written specifically to meet the needs of science and engineering students and working professionals
+
+• Provides an author-supported supplementary website containing code examples and all graphics files: www.pages.drexel.edu/~brooksdr/DRB_web_page/BookCode/BookCode.htm.
+Introduction to HTML and JavaScript for Scientists and Engineers addresses directly the needs of engineers and scientists by explaining just those components of HTML and JavaScript needed to write their own online applications. The book will prove an indispensable introduction and guide for professionals, as well for students interested in learning about these useful tools.
+
+Dr Brooks has authored the successful Springer titles, Problem solving with Fortran 90 for Scientists and Engineers, and C Programming: The Essentials for Engineers and Scientists.
+
+Bibliographic Information
+Book Title: An Introduction to HTML and JavaScript
+Book Subtitle: for Scientists and Engineers
+Authors: David R. Brooks
+Copyright: 2007
+Publisher: Springer-Verlag London
+Copyright Holder: Springer-Verlag London
+Number of Pages: XI, 200
+Number of Illustrations and Tables: 6 illustrations in colour 
+
+No. of copies available: 2
+Location of the book: Information Technology Section
+
+4. Financial Accounting: 
+
+This book presents empirical evidence on the convergence of financial and management accounting in the Italian context. The author provides an overview of the development paths of financial accounting including its evolution, role of non-financial, forward looking and voluntary disclosures, and internal determinants such as corporate governance and business culture. The author uses the premises of agency, signalling, legitimacy and institutional theories in understanding this evolution, and includes the perspective of professional associations and academics on the topic. Based on survey data, the reader is provided with valuable insights into the Italian accounting scene.
+
+Bibliographic Information
+Book Title: Financial Accounting
+Book Subtitle: Development Paths and Alignment to Management Accounting in the Italian Context
+Authors: Sara Trucco
+Series Title: Contributions to Management Science
+Copyright: 2015
+Publisher: Springer International Publishing
+Copyright Holder: Springer International Publishing Switzerland
+Number of Pages: IX, 143
+Number of Illustrations and Tables: 24 b/w illustrations
+
+No. of copies available: 6
+Location of the book: Accounting Section
+
+5. Geometry
+This book contains selected topics from the history of geometry, with "modern" proofs of some of the results, as well as a fully modern treatment of selected basic issues in geometry. It is geared towards the needs of future mathematics teachers. All too often the geometry which goes into the syllabus for these students presents the material in a pedantic and formalistic style, suppressing its dynamic character and its role as part of the foundation of our common cultural heritage. As such, one of my goals is to open up these aspects of the field; another is to extend an invitation to mathematics in general. It is an unfortunate fact that today, at a time when mathematics and knowledge of mathematics are more important than ever, phrases like math avoidance and math anxiety are very much in the public vocabulary. Making a serious effort to heal these ills is an essential task. Thus the book also aims at an informed public, interested in making a new beginning in math.For the 2nd edition, some of the historical material giving historical context has been expanded and numerous illustrations have been added. The main difference is however the inclusion of a large number of exercises with some suggestions for solutions.For excerpts from reviews from the first edition have a look at http://www.springer.com/978-3-540-41949-5.
+
+Bibliographic Information
+
+Book Title: Geometry
+Book Subtitle: Our Cultural Heritage
+Authors: Audun Holme
+Copyright: 2010
+Publisher: Springer-Verlag Berlin Heidelberg
+Copyright Holder: Springer-Verlag Berlin Heidelberg
+Edition Number: 2
+Number of Pages: XVII, 519
+
+No. of copies available: 10
+Location of the book: Math Section
+
+6. Trigonometry
+In a sense, trigonometry sits at the center of high school mathematics. It originates in the study of geometry when we investigate the ratios of sides in similar right triangles, or when we look at the relationship between a chord of a circle and its arc. It leads to a much deeper study of periodic functions, and of the so-called transcendental functions, which cannot be described using finite algebraic processes. It also has many applications to physics, astronomy, and other branches of science. It is a very old subject. Many of the geometric results that we now state in trigonometric terms were given a purely geometric exposition by Euclid. Ptolemy, an early astronomer, began to go beyond Euclid, using the geometry of the time to construct what we now call tables of values of trigonometric functions. Trigonometry is an important introduction to calculus, where one stud­ ies what mathematicians call analytic properties of functions. One of the goals of this book is to prepare you for a course in calculus by directing your attention away from particular values of a function to a study of the function as an object in itself. This way of thinking is useful not just in calculus, but in many mathematical situations. So trigonometry is a part of pre-calculus, and is related to other pre-calculus topics, such as exponential and logarithmic functions, and complex numbers.
+
+Bibliographic Information
+Book Title: Trigonometry
+Authors: I.M. Gelfand & Mark Saul
+Copyright: 2001
+Publisher: Birkhäuser Basel
+Copyright Holder: I.M. Gelfand
+Edition Number: 1
+Number of Pages: X, 229
+
+No. of copies available: 7
+Location of the book: Math Section
