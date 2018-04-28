@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Current</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="manifest" href="/manifest.json">
+</head>
+    
+<body onload="displayCalendar()">
+    <!--CURRENT-->
+    <div class="Current">
+        <div class="Title-Bar">
+            <img src="Pictures/Parking.png" id="Logo2">
+            <span id="Title">Jadewell Parking</span>
+        </div>
+
+        <div class="Buttons">
+            <button class="Current-Container">
+                <a href="#current">
+                    <img src="Pictures/Current.png" class="Button-Logo">
+                </a>
+                    <p class="Button-Text">Current</p>
+            </button>
+
+            <button class="Recent-Container">
+                <a href="#recent">
+                    <img src="Pictures/Recent.png" class="Button-Logo">
+                </a>
+                    <p class="Button-Text">Recent</p>
+
+            </button>            
+
+            <button class="Summary-Container">
+                <a href="#summary">
+                <img src="Pictures/Summary.png" class="Button-Logo">
+                </a>
+                <p class="Button-Text" id="Summary-Text">Summary</p>
+            </button>
+        </div>
+		
+		<!-- CURRENT -->
+		<div id="current"></div>
+
+        <form class="Plate">
+            <input type="text" placeholder="Enter Plate Number" name="search" id="Enter-Plate-Number">
+		</form>
+		
+		<form class="Start-Time-Button">
+            <button type="button" value="Start Time" id="Start-Time" class="All-Button" onclick="getTimeIn(), getNumberOfCars()">Start Time</button>
+        </form>
+		
+		<br><br><br>
+        <table id="Parking-Table">
+            <tr>
+                <th>Plate Number</th>
+                <th>Time in</th>
+                <th>Time out</th>
+            </tr>     
+        </table>
+    </div>
+    
+    
+    <!--RECENT-->
+	<hr><br>
+	<div id="recent"></div>
+    <div class="RECENT">
+		<table id="Recent-Table">
+            <tr>
+                <th>Plate Number</th>
+                <th>Time in</th>
+                <th>Time out</th>
+                <th>Parking Charge</th>
+            </tr>     
+        </table>
+    </div>
+    
+    <!--SUMMARY-->
+	<hr><br>
+	<div id="summary"></div>
+    <div class="Summary">
+		<table class="summary-table">
+            <tr>
+                <th id="getDateToday"></th>
+            </tr>
+            <tr>
+                <th>No. of parked cars</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				<td id="totalNumberOfCars">0</td>
+            </tr>
+            <tr>
+                <th>Total Amount Collected</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				<td id="totalAmount">0</td>
+            </tr>
+
+        </table>
+		
+		<br><br>
+
+        <div id="calendar" align="middle"></div> 
+    </div>
+</body>
+</html>
